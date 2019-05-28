@@ -7,6 +7,8 @@ else
 customers.each do |name|
   puts current_line.push(name)
 end
+puts current_line.push(name)
+end
 
 def take_a_number(current_line, next_person)
 end
