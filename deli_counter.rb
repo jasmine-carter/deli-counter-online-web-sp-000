@@ -9,6 +9,7 @@ def line(customers)
     end
     return current_line
 end
+end
 
 def take_a_number(current_line, next_person)
 end
