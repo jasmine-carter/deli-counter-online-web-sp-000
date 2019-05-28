@@ -7,7 +7,7 @@ def line(customers)
     customers.each do |name|
       current_line.push(name)
     end
-    current_line.join(", ")
+    current_line = current_line.join(", ")
     puts "The line is currently: #{current_line}"
 end
 end
