@@ -8,9 +8,10 @@ def line(customers)
     puts "The line is currently empty."
   else
     customers.each do |name|
-      current_line.push(name).join(", ")
+      current_line.push(name)
       position = position+1
     end
+    current_line = current_line.join(", ")
     puts "The line is currently: #{current_line}"
 end
 end
