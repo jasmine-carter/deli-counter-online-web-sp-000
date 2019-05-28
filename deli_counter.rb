@@ -7,7 +7,7 @@ def line(customers)
     customers.each do |name|
       current_line.push(name)
     end
-    return current_line
+    puts current_line
 end
 end
 
