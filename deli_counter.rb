@@ -5,7 +5,7 @@ def line(customers)
     puts "The line is currently empty."
   else
     customers.each do |name|
-      current_line.push(name)
+      current_line.push(name).split.
     end
     puts "The line is currently: #{current_line}"
 end
