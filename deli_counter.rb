@@ -11,7 +11,7 @@ def line(customers)
       current_line.push(name)
       position = position+1
     end
-    current_line = current_line.join(", ")
+    current_line = current_line.join(", ").slice! ","
     puts "The line is currently: #{current_line}"
 end
 end
