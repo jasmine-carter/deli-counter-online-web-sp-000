@@ -19,4 +19,4 @@ def take_a_number(katz_deli, name)
   katz_deli.push(name)
   position = katz_deli.index(name) + 1
   puts "Welcome, #{name}. You are number #{position}"
-end  
+end
