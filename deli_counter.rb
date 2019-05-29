@@ -1,13 +1,13 @@
 # Write your code here.
 katz_deli = []
 
-def line(katz_deli)
+def line(customers)
   current_line = []
   value = 0
-  if katz_deli.count == 0
+  if customers.count == 0
     puts "The line is currently empty."
   else
-    katz_deli.each do |name|
+    customers.each do |name|
       value = value + 1
       position = "#{value}."
       current_line.push(position)
@@ -29,5 +29,5 @@ def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "There is nobody in line."
   else
-    puts "Welcome #{name}"
+    puts "Welcome #{name}"  
 end
