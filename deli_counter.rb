@@ -31,3 +31,4 @@ def now_serving(katz_deli)
   else
     puts "Welcome #{name}"
 end
+end
