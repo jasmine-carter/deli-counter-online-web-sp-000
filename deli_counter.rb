@@ -1,7 +1,7 @@
 # Write your code here.
 katz_deli = []
 
-def line(customers)
+def line(katz_deli)
   current_line = []
   value = 0
   if customers.count == 0
@@ -28,4 +28,6 @@ end
 def now_serving(katz_deli)
   if katz_deli.count == 0
     puts "There is nobody in line."
+  else
+    puts "Welcome #{name}"
 end
