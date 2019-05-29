@@ -8,6 +8,7 @@ def line(customers)
     puts "The line is currently empty."
   else
     customers.each do |name|
+      current_line.push(position)
       current_line.push(name)
       position = position+1
     end
