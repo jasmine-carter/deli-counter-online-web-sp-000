@@ -3,7 +3,7 @@ katz_deli = []
 
 def line(customers)
   current_line = []
-  position = 1.
+  position = 1
   if customers.count  == 0
     puts "The line is currently empty."
   else
